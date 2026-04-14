@@ -1,0 +1,49 @@
+{
+  "entities": {
+    "Order": {
+      "title": "Order",
+      "description": "A customer order containing items and shipping details.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The ID of the user who placed the order (if authenticated), or anonymous ID."
+        },
+        "items": {
+          "type": "array",
+          "description": "The items purchased in this order."
+        },
+        "shippingMethod": {
+          "type": "string",
+          "description": "The selected shipping method."
+        },
+        "shippingCost": {
+          "type": "number",
+          "description": "The cost of shipping."
+        },
+        "payer": {
+          "type": "object",
+          "description": "The customer's details (name, email, address, etc.)."
+        },
+        "status": {
+          "type": "string",
+          "description": "The status of the order (e.g., 'pending', 'paid')."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the order was created."
+        }
+      },
+      "required": ["items", "payer", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/orders/{orderId}": {
+      "schema": {
+        "$ref": "#/entities/Order"
+      },
+      "description": "Stores all customer orders."
+    }
+  }
+}
