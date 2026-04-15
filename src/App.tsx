@@ -62,7 +62,7 @@ const productsData: Product[] = [
 ],
     colors: ['Blanco', 'Negro', 'Beige','Gris', 'Gris Oscuro' ],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Corpiño de microtool con detalle en puntilla, cerramiento en espalda con gancho de tela al tono.'
+    description: 'Bombacha colales tiro medio, confeccionada de lycra de algodon.'
   },
   {
     id: 13,
