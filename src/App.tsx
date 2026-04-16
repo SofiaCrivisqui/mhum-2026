@@ -1409,7 +1409,7 @@ const HowToBuyView = () => {
         <section>
           <h2 className="font-serif text-2xl md:text-3xl text-brand-soft-black mb-8 border-b border-brand-taupe/20 pb-4">Proceso de Compra</h2>
           <div className="space-y-6 text-brand-taupe font-light leading-relaxed">
-            <p>Una vez que se selecciona la prenda nos escribís a los números de teléfono que figuran en la página o a nuestro Instagram. Si no sos de Salta o de Orán, te comunicás directamente al número principal que es el de Córdoba, donde te atiende Maqui desde el taller de confección.</p>
+            <p></p>
             <p>En nuestro catálogo te mostramos todos los productos y sus talles. Contamos con stock limitado en Salta y Orán. Las prendas sin stock tienen una demora de confección de 5 a 10 días hábiles.</p>
             <p>Las prendas pueden personalizarse en medidas y materiales dentro de la tabla de talles. El precio que figura en cada producto es el precio vigente.</p>
             <p>Una vez confirmado el pago, comenzamos la confección con una demora de 5 a 10 días hábiles. Te avisaremos cuando esté listo para envío o retiro.</p>
