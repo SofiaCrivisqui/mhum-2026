@@ -939,7 +939,7 @@ const Footer = ({ onViewChange }: { onViewChange: (view: string) => void }) => (
       <div className="md:col-span-1">
         <h2 className="font-serif text-4xl italic mb-6 cursor-pointer" onClick={() => onViewChange('home')}>mhum</h2>
         <p className="text-brand-warm-white/60 text-sm font-light leading-relaxed max-w-xs">
-          Lencería contemporánea diseñada para abrazar tu naturaleza. Suavidad, diseño y confort en cada detalle.
+          Prendas de diseño que combinan comodidad y calidad.
         </p>
       </div>
       <div>
