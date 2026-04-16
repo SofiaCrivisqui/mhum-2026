@@ -92,7 +92,7 @@ const productsData: Product[] = [
 ],
     colors: ['Blanco', 'Negro', 'Gris', 'Verde Agua', 'Bordeau' ],
     sizes: ['1 (85-90)', '2 (95-100)'],
-    description: 'Bombacha regulable de puntilla, con microtool en espalda, tiras regulables con reguladores y arandelas metalicos, refuerzo de algodon en la zona intima.  '
+    description: 'Bombacha regulable de puntilla, con microtul en espalda, tiras regulables con reguladores y arandelas metalicos, refuerzo de algodon en la zona intima.  '
   },
   {
     id: 17,
@@ -122,7 +122,7 @@ const productsData: Product[] = [
     
     colors: ['Blanco', 'Negro', 'Beige','Gris', 'Gris Oscuro' ],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Bombacha colaless en blanco y negro, clásico y elegante con detalle de acabado en microtool.'
+    description: 'Bombacha colaless en blanco y negro, clásico y elegante con detalle de acabado en microtul.'
   },
   {
     id: 19,
@@ -182,7 +182,7 @@ const productsData: Product[] = [
     ],
     colors: ['Blanco', 'Negro', 'Gris', 'Verde Agua', 'Bordeau' ],
     sizes: ['1 (85-90)', '2 (95-100)'],
-    description: 'Bombacha regulable de puntilla, con microtool en espalda, tiras regulables con reguladores y arandelas metalicos, refuerzo de algodon en la zona intima.  ',
+    description: 'Bombacha regulable de puntilla, con microtul en espalda, tiras regulables con reguladores y arandelas metalicos, refuerzo de algodon en la zona intima.  ',
     badge: 'Pack'
   },
   {
@@ -245,7 +245,7 @@ const productsData: Product[] = [
 ],
     colors: ['Biege', 'Negro', 'Blanco'],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Corpiño de microtool con detalle en puntilla, bombacha vedetina regulable de seda fria y microtool en espalda. '
+    description: 'Corpiño de microtul con detalle en puntilla, bombacha vedetina regulable de seda fria y microtul en espalda. '
   },
   {
     id: 9,
@@ -262,7 +262,7 @@ const productsData: Product[] = [
     ],
     colors: [ 'Negro'],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Corpiño de microtool con detalles print en terciopelo y forrado de microtol, en la bese tiene un elastico de 3,5 cm forrado en seda fria super suave, bombacha colales tiro medio del mismo material que el corpiño con refuerzo de algodon en la zona intima y  breteles anchos de 2 cm para un mejor agarre. '
+    description: 'Corpiño de microtul con detalles print en terciopelo y forrado de microtul, en la base tiene un elastico de 3,5 cm forrado en seda fria super suave, bombacha colales tiro medio del mismo material que el corpiño con refuerzo de algodon en la zona intima y  breteles anchos de 2 cm para un mejor agarre. '
   },
   {
     id: 10,
@@ -277,7 +277,7 @@ const productsData: Product[] = [
     ],
     colors: ['Coral', 'Negro', 'Beige'],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Remera de jersey de algodon, con detalle de puntilla en escote y sisa, tiras regulables con arandelas y reguladores de plastico. Bombacha colales de puntilla y microtool, tiro medio, con refuerzo de algodon en la zona intima.  '
+    description: 'Remera de jersey de algodon, con detalle de puntilla en escote y sisa, tiras regulables con arandelas y reguladores de plastico. Bombacha colales de puntilla y microtul, tiro medio, con refuerzo de algodon en la zona intima.  '
   },
   {
     id: 11,
@@ -292,7 +292,7 @@ const productsData: Product[] = [
     ],
      colors: ['Coral', 'Negro', 'Beige'],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Corpiño de microtool forrado en puntilla, bombacha colales de lycra de algodon con detalle de puntilla e los costados '
+    description: 'Corpiño de microtul forrado en puntilla, bombacha colales de lycra de algodon con detalle de puntilla en los costados '
   },
   
   {
@@ -305,10 +305,10 @@ const productsData: Product[] = [
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/flores-pastel.jpeg',
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores.jpg',
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores1.jpg',
-      '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores.jpg'
-      
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores.jpg',
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-celeste.jpeg'
     ],
-    colors: ['Lila', 'Celeste'],
+    colors: ['Lila', 'Celeste', 'Marron'],
     sizes: ['1', '2', '3', '4','5'],
     description: 'Confeccionado con morley viscosa, el short posee elastico en cintura para un mejor agarre. Musculosa con detalle en puntilla blanca y tiras regulables.'
   },
@@ -351,7 +351,7 @@ const productsData: Product[] = [
       
       '/imagenes/pijamas/conjuntos-verano/Pijama-Rayas/pijamarayas.jpg'
     ],
-    colors: ['Celeste', 'Blanco'],
+    colors: ['Blanco'],
     sizes: ['1', '2', '3', '4','5'],
     description: 'Confeccionado con morley viscosa, el short posee elastico en cintura para un mejor agarre. Musculosa con detalle en puntilla al tono de la tela y tiras regulables.'
   },
@@ -363,9 +363,9 @@ const productsData: Product[] = [
     price: '$34.000',
     images: [
   
-      'public/imagenes/pijamas/short/liso/shortlisonegro.jpg',
+      '/imagenes/pijamas/short/liso/shortlisonegro.jpg'
     ],
-    colors: ['Negro', 'Gris', 'Melange'],
+    colors: ['Negro', 'Melange'],
     sizes: ['1', '2', '3', '4','5'],
     description: 'Confeccionado con morley viscosa y elastico en la cintura para un mejor agarre. Detalle de lazo en cintura. '
   },
@@ -379,7 +379,7 @@ const productsData: Product[] = [
    
       '/imagenes/pijamas/short/Short-Print/shortlisonegro.jpg'
     ],
-    colors: ['Sebra Print', 'Manchas'],
+    colors: ['Sebra Print'],
    sizes: ['1', '2', '3', '4','5'],
     description: 'Confeccionado con morley viscosa y elastico en la cintura para un mejor agarre. Detalle de lazo en cintura. '
   },
@@ -407,7 +407,7 @@ const productsData: Product[] = [
     price: '$30.000',
     images: [
       '/imagenes/pijamas/pantalones/liso-negro/negro.jpg',
-      '/imagenes/pijamas/pantalones/liso-negrp/pantalon-negro.jpg'
+      '/imagenes/pijamas/pantalones/liso-negro/pantalon-negro.jpg'
     ],
     colors: [ 'Negro'],
     sizes:  ['1', '2', '3', '4'],
@@ -437,7 +437,7 @@ const productsData: Product[] = [
       '/imagenes/pijamas/pantalones/liso-con-bolsillos/pantalon-bolsillo1.jpg',
       '/imagenes/pijamas/pantalones/liso-con-bolsillos/pantalon-bolsillos.jpg',
       '/imagenes/pijamas/pantalones/liso-con-bolsillos/pantalon-bolsillo.jpg',
-      '/imagenes/pijamas/pantalones/liso-con-bolsillos/pantalon-bolsillos2.jpg'
+      '/imagenes/pijamas/pantalones/liso-con-bolsillos/pantalon-bolsillo2.jpg'
     ],
     colors: ['Negro', 'Verde Musgo'],
     sizes: ['1', '2', '3', '4'],
@@ -590,17 +590,17 @@ const productsData: Product[] = [
   },
   {
     id: 109,
-    name: 'Corpiño Sofia Microtool',
+    name: 'Corpiño Sofia Microtul',
     section: 'ropa-interior',
     category: 'Corpiños',
     price: '$30.000',
     images: [
-      '/imagenes/ropainterior/corpiño-sofia-microtool/sofiamicrotool.jpg',
-      '/imagenes/ropainterior/corpiño-sofia-microtool/sofiamicrotoolnegro.jpg'
+      '/imagenes/ropainterior/corpiño-sofia-microtul/sofiamicrotul.jpg',
+      '/imagenes/ropainterior/corpiño-sofia-microtul/sofiamicrotulnegro.jpg'
     ],
    colors: ['Blanco', 'Negro', 'Beige'],
     sizes: ['1', '2', '3', '4', '5'],
-    description: 'Corpiño de microtool con detalle en puntilla, cerramiento en espalda con gancho de tela al tono.'
+    description: 'Corpiño de microtul con detalle en puntilla, cerramiento en espalda con gancho de tela al tono.'
   }
 ];
 
@@ -644,8 +644,12 @@ const SizeGuideModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => v
 };
 
 const ProductModal = ({ product, onClose, onAddToCart }: { product: Product, onClose: () => void, onAddToCart: (item: Omit<CartItem, 'id'>) => void }) => {
+  const isPack = product.badge === 'Pack' || product.subCategory === 'Pack' || product.name.toLowerCase().includes('pack');
+  const packSizeMatch = product.name.match(/x(\d)/i);
+  const packSize = packSizeMatch ? parseInt(packSizeMatch[1], 10) : (isPack ? 2 : 1);
+
   const [currentImage, setCurrentImage] = useState(0);
-  const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+  const [selectedColors, setSelectedColors] = useState<string[]>(Array(packSize).fill(product.colors[0]));
   const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
   const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false);
 
@@ -751,17 +755,26 @@ const ProductModal = ({ product, onClose, onAddToCart }: { product: Product, onC
 
             <div className="mb-8">
               <h4 className="uppercase tracking-widest text-xs font-semibold text-brand-soft-black mb-4">Colores</h4>
-              <div className="flex gap-3">
-                {product.colors.map(color => (
-                  <button 
-                    key={color} 
-                    onClick={() => setSelectedColor(color)}
-                    className={`px-4 py-2 border rounded-full text-sm transition-colors ${selectedColor === color ? 'border-brand-soft-black bg-brand-soft-black text-white' : 'border-brand-taupe/30 hover:border-brand-soft-black'}`}
-                  >
-                    {color}
-                  </button>
-                ))}
-              </div>
+              {Array.from({ length: packSize }).map((_, i) => (
+                <div key={i} className="mb-4 last:mb-0">
+                  {packSize > 1 && <p className="text-xs font-medium text-brand-taupe mb-2">Color {i + 1}</p>}
+                  <div className="flex gap-2 flex-wrap">
+                    {product.colors.map(color => (
+                      <button 
+                        key={`${i}-${color}`} 
+                        onClick={() => {
+                          const newColors = [...selectedColors];
+                          newColors[i] = color;
+                          setSelectedColors(newColors);
+                        }}
+                        className={`px-4 py-2 border rounded-full text-xs transition-colors ${selectedColors[i] === color ? 'border-brand-soft-black bg-brand-soft-black text-white' : 'border-brand-taupe/30 hover:border-brand-soft-black'}`}
+                      >
+                        {color}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
 
             <div className="mb-8">
@@ -796,11 +809,12 @@ const ProductModal = ({ product, onClose, onAddToCart }: { product: Product, onC
                   onAddToCart({
                     product,
                     size: selectedSize,
-                    color: selectedColor,
+                    color: selectedColors.join(' + '),
                     quantity: 1,
                     price
                   });
                 }}
+                
                 className="w-full bg-brand-soft-black text-brand-warm-white py-4 rounded-full uppercase tracking-widest text-xs font-semibold hover:bg-brand-cocoa transition-colors"
               >
                 Agregar al Carrito
@@ -1127,7 +1141,7 @@ const HomeView = ({ onViewChange, onProductClick }: { onViewChange: (view: strin
         <div className="max-w-4xl mx-auto px-6 text-center">
           <span className="block uppercase tracking-widest text-xs font-semibold text-brand-dusty-pink mb-8">Manifiesto</span>
           <h2 className="font-serif text-3xl md:text-5xl leading-relaxed text-brand-cocoa">
-            "Creemos en una sensualidad que nace de la comodidad. Piezas que no transforman tu cuerpo, sino que <span className="italic">celebran su forma natural</span>."
+            "La ropa expresa lo que somos y elegirla como nosotros queremos es una forma de expresarnos ante el mundo."
           </h2>
         </div>
       </section>
