@@ -306,7 +306,7 @@ const productsData: Product[] = [
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores.jpg',
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores1.jpg',
       '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-flores.jpg',
-      '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/pijama-celeste.jpeg'
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Flores/flores-celeste.jpeg'
     ],
     colors: ['Lila', 'Celeste', 'Marron'],
     sizes: ['1', '2', '3', '4','5'],
@@ -581,7 +581,7 @@ const productsData: Product[] = [
     category: 'Corpiños',
     price: '$30.000',
     images: [
-      '/imagenes/ropainterior/corpiño-sofia-algodon/sofiaalgodon.jpg',
+      '/imagenes/ropainterior/corpiño-sofia-algodon/sofiaalgodon.jpg'
    
     ],
     colors: ['Blanco', 'Negro', 'Beige'],
@@ -595,8 +595,8 @@ const productsData: Product[] = [
     category: 'Corpiños',
     price: '$30.000',
     images: [
-      '/imagenes/ropainterior/corpiño-sofia-microtul/sofiamicrotul.jpg',
-      '/imagenes/ropainterior/corpiño-sofia-microtul/sofiamicrotulnegro.jpg'
+      '/imagenes/ropainterior/corpiño-sofia-microtool/sofiamicrotool.jpg',
+      '/imagenes/ropainterior/corpiño-sofia-microtool/sofiamicrotoolnegro.jpg'
     ],
    colors: ['Blanco', 'Negro', 'Beige'],
     sizes: ['1', '2', '3', '4', '5'],
