@@ -1156,7 +1156,7 @@ const HomeView = ({ onViewChange, onProductClick }: { onViewChange: (view: strin
             onClick={() => onViewChange('bodys')}
           >
             <img 
-              src="imagenes/body/portada.png" 
+              src="imagenes/body/portada.jpg" 
               alt="Bodys" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               referrerPolicy="no-referrer"
@@ -1219,7 +1219,7 @@ const categoryConfig: Record<string, any> = {
   'bodys': {
     title: 'BODYS',
     description: 'Descubrí bodys diseñados para acompañar tu cuerpo con estilo, versatilidad y máxima comodidad.',
-    image: 'imagenes/body/body-seccion.jpeg',
+    image: 'imagenes/body/seccion.jpg',
     filters: ['Todos'],
     subFilters: {}
   }
