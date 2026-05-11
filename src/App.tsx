@@ -47,7 +47,22 @@ const productsData: Product[] = [
     description: 'Corpiño de puntilla falso aro, con elastico en el busto y bombacha de lycra de algodon cola less con detalles de puntilla,',
     
   },
-  
+  {
+    id: 201,
+    name: 'Body Zebra',
+    section: 'bodys',
+    category: 'Bodys',
+    price: '$35.000',
+    images: [
+      '/imagenes/body/body-marron-puesto.jpeg',
+      '/imagenes/body/body-negro-puesto.jpeg',
+      '/imagenes/body/body-negro.png',
+      '/imagenes/body/body-marron.png'
+    ],
+    colors: ['Negro', 'Marron'],
+    sizes: ['1', '2', '3', '4', '5'],
+    description: 'Está confeccionado de una lycra con textura, super suave, con mucha elasticidad y un poquito de transparencia. Posee un cuello media polera y está elastizado en sisa y piernas para un mejor agarre. Tiene broches de tela en la entrepierna para un fácil acceso',
+  },
   {
     id: 12,
     name: 'Colaless/Vedetina Algodón',
@@ -949,6 +964,7 @@ const Footer = ({ onViewChange }: { onViewChange: (view: string) => void }) => (
           <li><button onClick={() => onViewChange('ropa-interior')} className="hover:text-brand-dusty-pink transition-colors">Ropa Interior</button></li>
           <li><button onClick={() => onViewChange('pijamas')} className="hover:text-brand-dusty-pink transition-colors">Homewear</button></li>
           <li><button onClick={() => onViewChange('mallas-y-bikinis')} className="hover:text-brand-dusty-pink transition-colors">Bikinis</button></li>
+          <li><button onClick={() => onViewChange('bodys')} className="hover:text-brand-dusty-pink transition-colors">BODYS</button></li>
         </ul>
       </div>
       <div>
@@ -1133,6 +1149,26 @@ const HomeView = ({ onViewChange, onProductClick }: { onViewChange: (view: strin
               </button>
             </div>
           </div>
+
+          {/* Category 5: Bodys */}
+          <div 
+            className="md:col-span-5 relative group overflow-hidden rounded-2xl cursor-pointer"
+            onClick={() => onViewChange('bodys')}
+          >
+            <img 
+              src="imagenes/body/portada.png" 
+              alt="Bodys" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              referrerPolicy="no-referrer"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-soft-black/60 to-transparent" />
+            <div className="absolute bottom-8 left-8 text-brand-warm-white">
+              <h3 className="font-serif text-2xl italic mb-2">BODYS</h3>
+              <p className="text-sm font-light opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 flex items-center gap-2">
+                Descubrir <ArrowRight size={16} />
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1178,6 +1214,13 @@ const categoryConfig: Record<string, any> = {
     description: 'Complementos pensados para acompañar tu rutina diaria con la misma suavidad y calidad que nos caracteriza.',
     image: 'imagenes/esenciales/PORTADA.jpg',
     filters: ['Todos', 'Toallas de microfibra'],
+    subFilters: {}
+  },
+  'bodys': {
+    title: 'BODYS',
+    description: 'Descubrí bodys diseñados para acompañar tu cuerpo con estilo, versatilidad y máxima comodidad.',
+    image: 'imagenes/body/body-seccion.jpeg',
+    filters: ['Todos'],
     subFilters: {}
   }
 };
@@ -1334,6 +1377,11 @@ const CategoryView = ({ categoryId, onViewChange, onAddToCart }: { categoryId: s
               </motion.div>
             ))}
           </AnimatePresence>
+          {filteredProducts.length === 0 && (
+            <div className="col-span-full py-20 text-center text-brand-taupe">
+              No hay productos disponibles en esta sección todavía.
+            </div>
+          )}
         </div>
         
         {/* Load More */}
@@ -2320,6 +2368,7 @@ export default function App() {
           {currentView === 'pijamas' && <CategoryView key="pijamas" categoryId="pijamas" onViewChange={setCurrentView} onAddToCart={handleAddToCart} />}
           {currentView === 'mallas-y-bikinis' && <CategoryView key="mallas-y-bikinis" categoryId="mallas-y-bikinis" onViewChange={setCurrentView} onAddToCart={handleAddToCart} />}
           {currentView === 'esenciales' && <CategoryView key="esenciales" categoryId="esenciales" onViewChange={setCurrentView} onAddToCart={handleAddToCart} />}
+          {currentView === 'bodys' && <CategoryView key="bodys" categoryId="bodys" onViewChange={setCurrentView} onAddToCart={handleAddToCart} />}
           {currentView === 'about' && <AboutView key="about" />}
           {currentView === 'how-to-buy' && <HowToBuyView key="how-to-buy" />}
           {currentView === 'size-guide' && <SizeGuideView key="size-guide" />}
