@@ -371,6 +371,37 @@ const productsData: Product[] = [
     description: 'Confeccionado con morley viscosa, el short posee elastico en cintura para un mejor agarre. Musculosa con detalle en puntilla al tono de la tela y tiras regulables.'
   },
   {
+    id: 37,
+    name: 'Pijama Astromelia',
+    section: 'pijamas',
+    category: 'Conjunto Verano',
+    price: '$47.000',
+    images: [
+      
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Astromelia/astromelia-general.jpeg',
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Astromelia/astromelia-negro-2.jpeg',
+      
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Astromelia/astromelia-general-1.jpeg'
+    ],
+    colors: ['Negro', 'Azul'],
+    sizes: ['1', '2', '3', '4', '5'],
+    description: 'Pijama de crep elastizado, con puntilla en escote de la musculosa y cintura elastizada en el short. Tiene una caída súper linda y es una tela muy fresquita.'
+  },
+  {
+    id: 38,
+    name: 'Pijama Marimonia',
+    section: 'pijamas',
+    category: 'Conjunto Verano',
+    price: '$46.000',
+    images: ['/imagenes/pijamas/conjuntos-verano/Pijama-Marimonia/marimonia-negro.jpeg',
+      '/imagenes/pijamas/conjuntos-verano/Pijama-Marimonia/marimonia-negro-1.jpeg',
+'/imagenes/pijamas/conjuntos-verano/Pijama-Marimonia/marimonia-negro-2.jpeg'
+    ],
+    colors: ['Negro', 'Azul'],
+    sizes: ['1', '2', '3', '4', '5'],
+    description: 'Pijama de crep elastizado, con una musculosa de cuello redondo y detalle de puntilla a contratono. Cintura elastizada en el short. Tiene una caída súper linda y es una tela muy fresquita.'
+  },
+  {
     id: 31,
     name: 'Short Liso',
     section: 'pijamas',
