@@ -375,7 +375,7 @@ const productsData: Product[] = [
     name: 'Pijama Astromelia',
     section: 'pijamas',
     category: 'Conjunto Verano',
-    price: '$47.000',
+    price: '$47.500',
     images: [
       
       '/imagenes/pijamas/conjuntos-verano/Pijama-Astromelia/astromelia-general.jpeg',
